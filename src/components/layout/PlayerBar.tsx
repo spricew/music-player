@@ -2,7 +2,7 @@ import { IconPlayerPlayFilled, IconPlayerSkipBackFilled, IconPlayerSkipForwardFi
 
 export default function PlayerBar() {
   return (
-    <div className="flex flex-col gap-y-2 w-124 p-4 rounded-md bg-zinc-800">
+    <div className="flex flex-col gap-y-2 w-124 py-3 px-4 rounded-md bg-zinc-800">
       <div className="flex items-center w-full">
         <div className="size-14 shrink-0 bg-gray-700 rounded"></div>
 
