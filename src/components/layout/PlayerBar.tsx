@@ -1,7 +1,7 @@
 export default function PlayerBar() {
   return (
     <div className="flex flex-col gap-y-2 w-124 p-4 rounded-md bg-zinc-800">
-      <div className="flex items-center w-124">
+      <div className="flex items-center w-full">
         <div className="w-14 h-14 shrink-0 bg-gray-700 rounded"></div>
         <div className="ml-4">
           <p className="text-sm font-semibold text-white cursor-pointer">Nombre de la Canción</p>
