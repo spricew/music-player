@@ -14,7 +14,7 @@ const suggestedItems: SuggestedItem[] = [
 
 export default function MainContent() {
   return (
-    <main className="flex-1 bg-neutral-900 overflow-y-auto rounded-lg m-2 p-6">
+    <main className="flex-1 bg-neutral-900 overflow-y-auto p-6">
       <header className="flex justify-between items-center mb-8 sticky top-0 bg-neutral-900/90 py-2 z-10">
         <div className="flex space-x-2">
           <button className="bg-black/50 p-2 rounded-full w-8 h-8 flex items-center justify-center text-gray-400 hover:text-white">&lt;</button>
