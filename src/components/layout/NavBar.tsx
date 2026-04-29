@@ -1,9 +1,9 @@
-import PlayerBar from "./PlayerBar";
+import PlayerBar from "@/components/ui/PlayerBar";
 
 
 export default function NavBar() {
     return (
-        <nav className="flex items-center justify-between h-24 w-full p-2 box-content bg-black border-t border-gray-800 ">
+        <nav className="fixed bottom-0 flex items-center justify-center h-fit w-full p-2">
             <PlayerBar />
         </nav>
     );
