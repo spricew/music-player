@@ -8,7 +8,7 @@ export default function MainLayout() {
       <NavBar />
 
       <div className="flex-1 flex overflow-hidden">
-        <Sidebar />
+        {/* <Sidebar /> */}
         <MainContent />
       </div>
 
