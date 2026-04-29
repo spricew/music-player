@@ -12,7 +12,7 @@ interface Playlist {
   export default function Sidebar() {
     return (
       <aside className="w-64 bg-black flex flex-col p-4 space-y-4">
-        <nav className="space-y-4 font-bold text-gray-400">
+        <nav className="space-y-2 font-bold text-gray-400">
           <a href="#" className="block hover:text-white transition-colors">Inicio</a>
           <a href="#" className="block hover:text-white transition-colors">Buscar</a>
           <a href="#" className="block hover:text-white transition-colors">Tu Biblioteca</a>
