@@ -2,7 +2,7 @@ import { IconPlayerPlayFilled, IconPlayerSkipBackFilled, IconPlayerSkipForwardFi
 
 export default function PlayerBar() {
   return (
-    <div className="flex flex-col gap-y-2 w-124 p-3 rounded-md bg-zinc-800/60 backdrop-blur-2xl">
+    <div className="flex flex-col gap-y-2 w-124 p-3 rounded-xl border border-outline-variant/15 bg-black-primary/40 backdrop-blur-2xl">
       <div className="flex items-center w-full">
         <SongDetails />
         <PlayerControls />
