@@ -4,14 +4,12 @@ import NavBar from "./NavBar";
 
 export default function MainLayout() {
   return (
-    <div className="flex flex-col h-screen bg-black text-white overflow-hidden">
+    <>
       <NavBar />
-
-      <div className="flex-1 flex overflow-hidden">
-        {/* <Sidebar /> */}
+      <div className="flex h-screen bg-black text-white">
+        <Sidebar />
         <MainContent />
       </div>
-
-    </div>
+    </>
   );
 }
