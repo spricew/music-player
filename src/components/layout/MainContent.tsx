@@ -14,7 +14,7 @@ const suggestedItems: SuggestedItem[] = [
 
 export default function MainContent() {
   return (
-    <main className="flex-1 bg-neutral-900 overflow-y-auto p-6">
+    <main className="flex-1 bg-neutral-900 overflow-y-auto p-6 pb-30">
       <div>
         <h1 className="text-3xl font-bold mb-6">Buenas tardes</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
